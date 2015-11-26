@@ -37,8 +37,10 @@ public class SpeakAndSpell {
 		speak("Czechoslovakia");
 		String b = JOptionPane.showInputDialog("spell it");
 		
-		if (b.equalsIgnoreCase(Cz)s)
+		if (b.equalsIgnoreCase("Czechoslovakia")) {
+		speak("correct");
 		
+	}
 	}
 
 	static void speak(String words) {
